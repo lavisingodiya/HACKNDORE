@@ -42,15 +42,15 @@ FROM
 <tr><th>Tax USE</th><td><?php echo $row['PropertyUse'];?></td></tr>
 <tr><th>DATE REGISTERED</th><td><?php echo $row['date'];?></td></tr>
 <tr><th>Tax VALUE</th><td>₹ <?php echo $row['ChargeableFee'];?></td></tr>
-<tr><th>BALANCE BF</th><td>₹ <?php echo $row['BalanceBF'];?></td></tr>
+<!-- <tr><th>BALANCE BF</th><td>₹ <?php echo $row['BalanceBF'];?></td></tr> -->
 <tr><th>AMOUNT DUE</th><td>₹ <?php echo $row['AmountPayable'];?></td></tr>
 <tr><th>AMOUNT CLEARED</th><td>₹ <?php echo $row['AmountPaid'];?></td></tr>
-<tr><th>CURRENT BALANCE DUE</th><td>₹ <?php echo $row['CurrentBalance'];?></td></tr>
+<tr><th>CURRENT AMOUNT DUE</th><td>₹ <?php echo $row['CurrentBalance'];?></td></tr>
 <!-- <tr><th>Tax LOCATION</th><td><?php echo $row['Location'];?></td></tr>
 <tr><th>PHYSICAL ADDRESS</th><td><?php echo $row['PhysicalAddress'];?></td></tr>
 <tr><th>Tax DESC.</th><td><?php echo $row['Description'];?></td></tr> -->
 </table>
-		d:\rates\rates\property_details.php
+		<!-- d:\rates\rates\property_details.php -->
 		</div>
 	</div>
 </div>

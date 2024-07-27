@@ -128,7 +128,7 @@ if($_POST['cardNum']==NULL){
 						<input type="number" class="form-control form-control-sm" name="Balance" id="Balance" value="'.$rs['CurrentBalance'].'" readonly>
 					  </div>
 					  <div class="form-group">
-						<label for="amountToPay" class="control-label">Amout to pay(₹)</label>
+						<label for="amountToPay" class="control-label">Amount to pay(₹)</label>
 						<input type="number" max-length="7" min-length="3" class="form-control form-control-sm" name="amountToPay" id="amountToPay" required onkeyup="reSum()" placeholder="Enter an amount to pay">
 					  </div>
 					  <div class="form-group">

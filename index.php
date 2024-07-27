@@ -18,6 +18,7 @@
 	include 'header.php' 
 ?>
 <body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
+
 <div class="wrapper">
   <?php include 'topbar.php' ?>
   <?php include 'sidebar.php' ?>

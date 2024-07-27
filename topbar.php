@@ -19,6 +19,11 @@
           <i class="fas fa-expand-arrows-alt"></i>
         </a>
       </li>
+      <li class="nav-item dropdown">
+        <a href="./index.php?page=clientDetails" class="nav-link nav-subjects">
+          <i class="nav-icon fas fa-user"></i>
+        </a>
+      </li>
       <?php if(isset($_SESSION['rs_id'])): ?>
         <li class="nav-item">
         <a class="nav-link" href="ajax.php?action=logout" >

@@ -51,14 +51,6 @@
                     </a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a href="./index.php?page=clientDetails" class="nav-link nav-subjects">
-                        <i class="nav-icon fas fa-user"></i>
-                        <p>
-                            Client Details
-                        </p>
-                    </a>
-                </li>
-                <li class="nav-item dropdown">
                     <a href="./index.php?page=help" class="nav-link nav-subjects">
                         <i class="nav-icon fas fa-question"></i>
                         <p>

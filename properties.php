@@ -15,7 +15,7 @@
                         <th>Tax #</th>
                         <th>Tax Value</th>
                         <th>Amount Paid</th>
-                        <th>Balance</th>
+                        <th>Leftover Tax</th>
                         <th>Action</th>
                     </tr>
                 </thead>

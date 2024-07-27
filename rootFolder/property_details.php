@@ -42,7 +42,7 @@ FROM
 <tr><th>PROPETY USE</th><td><?php echo $row['PropertyUse'];?></td></tr>
 <tr><th>DATE REGISTERED</th><td><?php echo $row['date'];?></td></tr>
 <tr><th>PROPERTY VALUE</th><td>ZMK <?php echo $row['ChargeableFee'];?></td></tr>
-<tr><th>BALANCE BF</th><td>ZMK <?php echo $row['BalanceBF'];?></td></tr>
+<!-- <tr><th>BALANCE BF</th><td>ZMK <?php echo $row['BalanceBF'];?></td></tr> -->
 <tr><th>AMOUNT DUE</th><td>ZMK <?php echo $row['AmountPayable'];?></td></tr>
 <tr><th>AMOUNT CLEARED</th><td>ZMK <?php echo $row['AmountPaid'];?></td></tr>
 <tr><th>CURRENT BALANCE DUE</th><td>ZMK <?php echo $row['CurrentBalance'];?></td></tr>
